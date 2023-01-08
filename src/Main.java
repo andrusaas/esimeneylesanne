@@ -22,7 +22,6 @@ public class Main {
 
 	DecimalFormat decimalFormat = new DecimalFormat("0.00");
 
-
 	if (unit.equals("C")) {
             converter.setCelsius(temp);
             double f = converter.getFahrenheit();
